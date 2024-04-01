@@ -316,7 +316,20 @@ public class DDListTest extends TestCase {
         assertEquals(test.next(), "C");
         assertEquals(test.next(), "D");
         assertEquals(test.next(), "E");
-
+        
+  
     }
+    /**
+     * test for github
+     */
+    public void testSize2() {
+        list.add("1");
+        list.add("10");
+        list.add("100");
+        assertEquals(3,list.size());
+        list.clear();
+        assertEquals(0,list.size());
+    }
+
 
 }
